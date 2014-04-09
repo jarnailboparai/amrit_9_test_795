@@ -142,12 +142,15 @@ body,body.ui-overlay-a{
 
 
 
-@media (min-width: 100px) and (max-width: 399px) {
 .theme_bg
 {
-	background-image:url(../images/app795port.jpg) ;
+	background-image:none;
 	background-repeat:no-repeat;
 	background-size:cover;	
-}
+	background: linear-gradient(left , rgb(120, 177, 125) 18% , rgb(0, 0, 0) 95%);
+background: -o-linear-gradient(left , rgb(120, 177, 125) 18% , rgb(0, 0, 0) 95%);
+background: -ms-linear-gradient(left , rgb(120, 177, 125) 18% , rgb(0, 0, 0) 95%);
+background: -moz-linear-gradient(left , rgb(120, 177, 125) 18% , rgb(0, 0, 0) 95%);
+background: -webkit-linear-gradient(left , rgb(120, 177, 125) 18% , rgb(0, 0, 0) 95%);
 }
 
